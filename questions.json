@@ -1,0 +1,80 @@
+[
+  {
+    "id": "GH-300-001",
+    "domain": "D1",
+    "question": "What is the purpose of git init?",
+    "options": {
+      "a": "Initialize a new Git repository",
+      "b": "Initialize a new Python project",
+      "c": "Initialize a new database",
+      "d": "Initialize environment variables"
+    },
+    "answers": ["a"],
+    "explanation": "git init creates a new Git repository in the current directory."
+  },
+  {
+    "id": "GH-300-002",
+    "domain": "D1",
+    "question": "Which command stages files for commit?",
+    "options": {
+      "a": "git commit",
+      "b": "git add",
+      "c": "git push",
+      "d": "git pull"
+    },
+    "answers": ["b"],
+    "explanation": "git add stages changes to the staging area before committing."
+  },
+  {
+    "id": "GH-300-003",
+    "domain": "D2",
+    "question": "What does git merge do?",
+    "options": {
+      "a": "Combines two branches together",
+      "b": "Deletes a branch",
+      "c": "Renames a branch",
+      "d": "Switches to a branch"
+    },
+    "answers": ["a"],
+    "explanation": "git merge integrates changes from one branch into another."
+  },
+  {
+    "id": "GH-300-004",
+    "domain": "D2",
+    "question": "Which of these resolve a merge conflict?",
+    "options": {
+      "a": "Manually edit the file and re-add it",
+      "b": "Delete the conflicting file",
+      "c": "Run git reset",
+      "d": "Revert the repository"
+    },
+    "answers": ["a", "c"],
+    "explanation": "Merge conflicts can be resolved by editing files manually or using git reset depending on the situation."
+  },
+  {
+    "id": "GH-300-005",
+    "domain": "D3",
+    "question": "What is a rebase in Git?",
+    "options": {
+      "a": "Re-applying commits on top of another branch",
+      "b": "Deleting commit history",
+      "c": "Creating a new repository",
+      "d": "Syncing with a remote server"
+    },
+    "answers": ["a"],
+    "explanation": "git rebase replays commits from one branch onto another, creating a linear history."
+  },
+  {
+    "id": "GH-300-006",
+    "domain": "D3",
+    "question": "How do you view the commit history?",
+    "options": {
+      "a": "git log",
+      "b": "git history",
+      "c": "git show",
+      "d": "git list"
+    },
+    "answers": ["a"],
+    "explanation": "git log displays the commit history of the current branch."
+  }
+]

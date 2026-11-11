@@ -1,3 +1,4 @@
+# Project: Quiz Runner
 - I am a beginner. Explain what you do simply and add short "why" comments.
 - Python 3.14, standard library only, plus pytest for tests.
 - Windows PowerShell commands; virtual environment in .venv.
