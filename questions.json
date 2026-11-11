@@ -26,6 +26,136 @@
     "explanation": "git add stages changes to the staging area before committing."
   },
   {
+    "id": "GH-300-007",
+    "domain": "D1",
+    "question": "What is the purpose of git status?",
+    "options": {
+      "a": "Shows the current branch status",
+      "b": "Displays modified, staged, and untracked files",
+      "c": "Lists all remote repositories",
+      "d": "Checks if the internet is connected"
+    },
+    "answers": ["b"],
+    "explanation": "git status shows which files have changed, been staged, or are untracked."
+  },
+  {
+    "id": "GH-300-008",
+    "domain": "D1",
+    "question": "What does git commit do?",
+    "options": {
+      "a": "Saves staged changes to the repository with a message",
+      "b": "Uploads changes to GitHub",
+      "c": "Creates a backup copy",
+      "d": "Deletes old commits"
+    },
+    "answers": ["a"],
+    "explanation": "git commit records staged changes with a descriptive message in the repository history."
+  },
+  {
+    "id": "GH-300-009",
+    "domain": "D1",
+    "question": "What is a .gitignore file?",
+    "options": {
+      "a": "Tells Git which files to ignore",
+      "b": "Ignores all errors in Git",
+      "c": "Removes files from GitHub",
+      "d": "Protects files from being modified"
+    },
+    "answers": ["a"],
+    "explanation": ".gitignore specifies files and folders that Git should not track."
+  },
+  {
+    "id": "GH-300-010",
+    "domain": "D1",
+    "question": "How do you check your Git configuration?",
+    "options": {
+      "a": "git config --list",
+      "b": "git settings show",
+      "c": "git info",
+      "d": "git --help"
+    },
+    "answers": ["a"],
+    "explanation": "git config --list displays all current Git configuration settings."
+  },
+  {
+    "id": "GH-300-011",
+    "domain": "D1",
+    "question": "What does git diff show?",
+    "options": {
+      "a": "Differences between commits",
+      "b": "Differences between the working directory and staged changes",
+      "c": "Both A and B",
+      "d": "List of all branches"
+    },
+    "answers": ["c"],
+    "explanation": "git diff shows changes between different versions of files depending on the parameters used."
+  },
+  {
+    "id": "GH-300-012",
+    "domain": "D1",
+    "question": "What is a branch in Git?",
+    "options": {
+      "a": "A copy of the repository on GitHub",
+      "b": "An independent line of development",
+      "c": "A backup of your files",
+      "d": "A protected version of the code"
+    },
+    "answers": ["b"],
+    "explanation": "A branch is an independent line of development allowing parallel work on features."
+  },
+  {
+    "id": "GH-300-013",
+    "domain": "D1",
+    "question": "How do you create a new branch?",
+    "options": {
+      "a": "git branch new-name",
+      "b": "git new-branch",
+      "c": "git checkout -b new-name",
+      "d": "Both A and C"
+    },
+    "answers": ["d"],
+    "explanation": "Both git branch and git checkout -b can create new branches; checkout -b also switches to it."
+  },
+  {
+    "id": "GH-300-014",
+    "domain": "D1",
+    "question": "What does git clone do?",
+    "options": {
+      "a": "Creates a copy of a remote repository locally",
+      "b": "Duplicates a file in the repository",
+      "c": "Creates a backup on GitHub",
+      "d": "Resets the repository to an earlier state"
+    },
+    "answers": ["a"],
+    "explanation": "git clone downloads a complete copy of a remote repository to your local machine."
+  },
+  {
+    "id": "GH-300-015",
+    "domain": "D1",
+    "question": "What is a commit message?",
+    "options": {
+      "a": "A message sent to other developers",
+      "b": "A description of changes in a commit",
+      "c": "An error message from Git",
+      "d": "A warning about conflicts"
+    },
+    "answers": ["b"],
+    "explanation": "A commit message describes what changes were made and why, aiding future understanding."
+  },
+  {
+    "id": "GH-300-016",
+    "domain": "D1",
+    "question": "How do you view the last commit?",
+    "options": {
+      "a": "git show",
+      "b": "git last",
+      "c": "git recent",
+      "d": "git head"
+    },
+    "answers": ["a"],
+    "explanation": "git show displays the last commit's details including changes and metadata."
+  },
+  {
     "id": "GH-300-003",
     "domain": "D2",
     "question": "What does git merge do?",
@@ -52,6 +182,136 @@
     "explanation": "Merge conflicts can be resolved by editing files manually or using git reset depending on the situation."
   },
   {
+    "id": "GH-300-017",
+    "domain": "D2",
+    "question": "What is a pull request?",
+    "options": {
+      "a": "A request to download code from GitHub",
+      "b": "A request to review and merge code changes into a branch",
+      "c": "A command that syncs your local repo",
+      "d": "An error notification from GitHub"
+    },
+    "answers": ["b"],
+    "explanation": "A pull request proposes code changes and requests review before merging into the main branch."
+  },
+  {
+    "id": "GH-300-018",
+    "domain": "D2",
+    "question": "What does git fetch do?",
+    "options": {
+      "a": "Downloads remote changes without merging",
+      "b": "Retrieves a specific file from GitHub",
+      "c": "Merges remote changes automatically",
+      "d": "Uploads your commits to GitHub"
+    },
+    "answers": ["a"],
+    "explanation": "git fetch retrieves changes from the remote repository but doesn't merge them into your branch."
+  },
+  {
+    "id": "GH-300-019",
+    "domain": "D2",
+    "question": "What does git pull do?",
+    "options": {
+      "a": "Fetches and merges remote changes",
+      "b": "Only downloads remote changes",
+      "c": "Uploads local commits",
+      "d": "Deletes remote branches"
+    },
+    "answers": ["a"],
+    "explanation": "git pull is equivalent to git fetch followed by git merge, updating your local branch."
+  },
+  {
+    "id": "GH-300-020",
+    "domain": "D2",
+    "question": "What does git push do?",
+    "options": {
+      "a": "Uploads local commits to a remote repository",
+      "b": "Downloads remote commits",
+      "c": "Creates a new branch",
+      "d": "Deletes files from the repository"
+    },
+    "answers": ["a"],
+    "explanation": "git push sends your local commits to the remote repository to share changes."
+  },
+  {
+    "id": "GH-300-021",
+    "domain": "D2",
+    "question": "What is a remote in Git?",
+    "options": {
+      "a": "A GitHub user who can access your repo",
+      "b": "A reference to a repository hosted on a server",
+      "c": "A backup of your local repository",
+      "d": "A protected branch on GitHub"
+    },
+    "answers": ["b"],
+    "explanation": "A remote is a reference to an external repository, typically on GitHub or another server."
+  },
+  {
+    "id": "GH-300-022",
+    "domain": "D2",
+    "question": "How do you list all remotes?",
+    "options": {
+      "a": "git remote",
+      "b": "git remotes list",
+      "c": "git show remotes",
+      "d": "git remote --all"
+    },
+    "answers": ["a"],
+    "explanation": "git remote displays all configured remote repositories for the current repository."
+  },
+  {
+    "id": "GH-300-023",
+    "domain": "D2",
+    "question": "What is the default remote name?",
+    "options": {
+      "a": "github",
+      "b": "origin",
+      "c": "master",
+      "d": "remote"
+    },
+    "answers": ["b"],
+    "explanation": "origin is the conventional name for the default remote repository, typically pointing to GitHub."
+  },
+  {
+    "id": "GH-300-024",
+    "domain": "D2",
+    "question": "What is a fast-forward merge?",
+    "options": {
+      "a": "A merge that moves the pointer forward without creating a new commit",
+      "b": "A merge that creates a new commit",
+      "c": "A merge that resolves conflicts automatically",
+      "d": "A merge that deletes the source branch"
+    },
+    "answers": ["a"],
+    "explanation": "A fast-forward merge simply moves the branch pointer when no diverging changes exist."
+  },
+  {
+    "id": "GH-300-025",
+    "domain": "D2",
+    "question": "What does git branch -d do?",
+    "options": {
+      "a": "Deletes a local branch",
+      "b": "Displays branch details",
+      "c": "Creates a duplicate branch",
+      "d": "Renames a branch"
+    },
+    "answers": ["a"],
+    "explanation": "git branch -d removes a local branch from your repository."
+  },
+  {
+    "id": "GH-300-026",
+    "domain": "D2",
+    "question": "What is the difference between git reset and git revert?",
+    "options": {
+      "a": "reset removes commits; revert creates a new commit undoing changes",
+      "b": "revert removes commits; reset creates a new commit",
+      "c": "Both do the same thing",
+      "d": "reset is for files; revert is for branches"
+    },
+    "answers": ["a"],
+    "explanation": "reset moves the branch pointer and discards history; revert keeps history by creating an undo commit."
+  },
+  {
     "id": "GH-300-005",
     "domain": "D3",
     "question": "What is a rebase in Git?",
@@ -76,5 +336,135 @@
     },
     "answers": ["a"],
     "explanation": "git log displays the commit history of the current branch."
+  },
+  {
+    "id": "GH-300-027",
+    "domain": "D3",
+    "question": "What is an interactive rebase?",
+    "options": {
+      "a": "A rebase where you can edit, reorder, or squash commits",
+      "b": "A rebase that requires human intervention for conflicts",
+      "c": "A rebase that automatically resolves conflicts",
+      "d": "A rebase that merges all commits into one"
+    },
+    "answers": ["a"],
+    "explanation": "Interactive rebase (git rebase -i) allows you to modify commit history interactively."
+  },
+  {
+    "id": "GH-300-028",
+    "domain": "D3",
+    "question": "What does git cherry-pick do?",
+    "options": {
+      "a": "Selects and applies specific commits to the current branch",
+      "b": "Merges all commits from a branch",
+      "c": "Deletes unwanted commits",
+      "d": "Picks the latest commit from a branch"
+    },
+    "answers": ["a"],
+    "explanation": "git cherry-pick applies specific commits from one branch to another without merging."
+  },
+  {
+    "id": "GH-300-029",
+    "domain": "D3",
+    "question": "What is git stash used for?",
+    "options": {
+      "a": "Temporarily saves uncommitted changes",
+      "b": "Permanently deletes changes",
+      "c": "Stores commits on GitHub",
+      "d": "Creates a backup branch"
+    },
+    "answers": ["a"],
+    "explanation": "git stash temporarily saves changes so you can work on something else and reapply them later."
+  },
+  {
+    "id": "GH-300-030",
+    "domain": "D3",
+    "question": "What is a tag in Git?",
+    "options": {
+      "a": "A label for a specific commit, often used for releases",
+      "b": "A branch that cannot be modified",
+      "c": "A file that tracks changes",
+      "d": "A GitHub issue marker"
+    },
+    "answers": ["a"],
+    "explanation": "A tag marks a specific point in history, typically used to mark release versions."
+  },
+  {
+    "id": "GH-300-031",
+    "domain": "D3",
+    "question": "What does git reflog do?",
+    "options": {
+      "a": "Shows a log of reference updates (HEAD changes)",
+      "b": "Lists all remote branches",
+      "c": "Reverts all changes",
+      "d": "Displays file change history"
+    },
+    "answers": ["a"],
+    "explanation": "git reflog shows a record of HEAD updates, useful for recovering lost commits."
+  },
+  {
+    "id": "GH-300-032",
+    "domain": "D3",
+    "question": "What is squashing commits?",
+    "options": {
+      "a": "Combining multiple commits into one",
+      "b": "Deleting commits from history",
+      "c": "Splitting a commit into multiple commits",
+      "d": "Moving commits to another branch"
+    },
+    "answers": ["a"],
+    "explanation": "Squashing combines multiple commits into a single commit, often done during interactive rebase."
+  },
+  {
+    "id": "GH-300-033",
+    "domain": "D3",
+    "question": "What is the difference between HEAD and origin/main?",
+    "options": {
+      "a": "HEAD is your local branch; origin/main is the remote tracking branch",
+      "b": "HEAD is the remote; origin/main is local",
+      "c": "They are the same thing",
+      "d": "HEAD is a file; origin/main is a command"
+    },
+    "answers": ["a"],
+    "explanation": "HEAD points to your current local branch; origin/main is your local cache of the remote branch."
+  },
+  {
+    "id": "GH-300-034",
+    "domain": "D3",
+    "question": "What is a detached HEAD state?",
+    "options": {
+      "a": "When HEAD points directly to a commit instead of a branch",
+      "b": "When Git loses track of the repository",
+      "c": "When a branch is deleted",
+      "d": "When the remote is disconnected"
+    },
+    "answers": ["a"],
+    "explanation": "Detached HEAD occurs when you check out a specific commit; changes here aren't on a branch."
+  },
+  {
+    "id": "GH-300-035",
+    "domain": "D3",
+    "question": "What does git bisect help with?",
+    "options": {
+      "a": "Finding which commit introduced a bug through binary search",
+      "b": "Splitting branches",
+      "c": "Merging conflicting files",
+      "d": "Viewing file differences"
+    },
+    "answers": ["a"],
+    "explanation": "git bisect automates finding the commit that introduced a bug by binary searching commit history."
+  },
+  {
+    "id": "GH-300-036",
+    "domain": "D3",
+    "question": "What is git blame used for?",
+    "options": {
+      "a": "Shows which commit modified each line of a file",
+      "b": "Blames developers for errors",
+      "c": "Deletes problematic code",
+      "d": "Lists all conflicts"
+    },
+    "answers": ["a"],
+    "explanation": "git blame annotates each line with the commit that last modified it, useful for tracking changes."
   }
 ]
